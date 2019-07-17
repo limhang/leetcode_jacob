@@ -8,6 +8,16 @@
 
 import UIKit
 
+/*
+ example:
+ 
+ let reverse3 = ReverseWordsInAString3()
+ print(reverse3.reverseWords("reverse hello word") + "\n")
+ 
+ output:
+ 【esrever olleh drow】
+ */
+
 class ReverseWordsInAString3: NSObject {
     func reverseWords(_ string: String) -> String {
         var index = 0 , stringArray = Array(string)

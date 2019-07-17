@@ -1,0 +1,9 @@
+
+.DS_Store
+
+.svn
+*.xcuserstate
+
+.idea
+.vscode
+build.sh

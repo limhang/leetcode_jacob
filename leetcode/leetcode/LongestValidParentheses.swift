@@ -26,6 +26,18 @@
  "So you didn't need to recount because you remembered there were eight! Dynamic Programming is just a fancy way to say 'remembering stuff to save time later'"
  */
 
+/*
+ example:
+ 
+ let longestVaild = LongestValidParentheses()
+ let string: String = "a b b a x c c d d e e d d c c"
+ let stringArray = string.components(separatedBy: " ")
+ print(longestVaild.findLongestPalindrome_DP(str: stringArray))
+ 
+ output:
+ 【ccddeeddcc】
+ */
+
 import UIKit
 
 class LongestValidParentheses: NSObject {
