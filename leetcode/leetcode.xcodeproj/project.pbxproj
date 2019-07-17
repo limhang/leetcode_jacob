@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		89BC27C522DD6C26003E0675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27C422DD6C26003E0675 /* AppDelegate.swift */; };
-		89BC27C722DD6C26003E0675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27C622DD6C26003E0675 /* ViewController.swift */; };
 		89BC27DA22DD6C27003E0675 /* leetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27D922DD6C27003E0675 /* leetcodeTests.swift */; };
 		89BC27E522DD6C27003E0675 /* leetcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27E422DD6C27003E0675 /* leetcodeUITests.swift */; };
 		89BC27F922DD6C69003E0675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BC27F322DD6C69003E0675 /* Assets.xcassets */; };
@@ -17,6 +16,8 @@
 		89BC27FE22DD6F9A003E0675 /* ReverseWordsInAString3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27FD22DD6F9A003E0675 /* ReverseWordsInAString3.swift */; };
 		89BC280022DD7810003E0675 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27FF22DD7810003E0675 /* AddTwoNumbers.swift */; };
 		89BC280222DECBA2003E0675 /* LongestValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC280122DECBA2003E0675 /* LongestValidParentheses.swift */; };
+		89BC280522DF19B3003E0675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC280422DF19B3003E0675 /* ViewController.swift */; };
+		89BC280722DF19CE003E0675 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC280622DF19CE003E0675 /* ReverseInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		89BC27C122DD6C26003E0675 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BC27C422DD6C26003E0675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89BC27C622DD6C26003E0675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89BC27D522DD6C27003E0675 /* leetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BC27D922DD6C27003E0675 /* leetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcodeTests.swift; sourceTree = "<group>"; };
 		89BC27DB22DD6C27003E0675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		89BC27FD22DD6F9A003E0675 /* ReverseWordsInAString3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAString3.swift; sourceTree = "<group>"; };
 		89BC27FF22DD7810003E0675 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		89BC280122DECBA2003E0675 /* LongestValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParentheses.swift; sourceTree = "<group>"; };
+		89BC280422DF19B3003E0675 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89BC280622DF19CE003E0675 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +105,13 @@
 		89BC27C322DD6C26003E0675 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				89BC280322DF19B3003E0675 /* VC */,
 				89BC27F222DD6C69003E0675 /* SupportFiles */,
 				89BC27C422DD6C26003E0675 /* AppDelegate.swift */,
 				89BC27FF22DD7810003E0675 /* AddTwoNumbers.swift */,
-				89BC27C622DD6C26003E0675 /* ViewController.swift */,
 				89BC27FD22DD6F9A003E0675 /* ReverseWordsInAString3.swift */,
 				89BC280122DECBA2003E0675 /* LongestValidParentheses.swift */,
+				89BC280622DF19CE003E0675 /* ReverseInteger.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -140,6 +143,14 @@
 				89BC27F822DD6C69003E0675 /* Info.plist */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		89BC280322DF19B3003E0675 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				89BC280422DF19B3003E0675 /* ViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,11 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BC280522DF19B3003E0675 /* ViewController.swift in Sources */,
 				89BC280222DECBA2003E0675 /* LongestValidParentheses.swift in Sources */,
 				89BC27FE22DD6F9A003E0675 /* ReverseWordsInAString3.swift in Sources */,
 				89BC280022DD7810003E0675 /* AddTwoNumbers.swift in Sources */,
-				89BC27C722DD6C26003E0675 /* ViewController.swift in Sources */,
 				89BC27C522DD6C26003E0675 /* AppDelegate.swift in Sources */,
+				89BC280722DF19CE003E0675 /* ReverseInteger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
