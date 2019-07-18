@@ -17,6 +17,38 @@ import UIKit
  7 -> 0 -> 8
  */
 
+
+/*
+ 可以采用递归的方式，递归方程式
+ f(l1,l2) = {
+    1. l2                                           , l1 == nil
+    2. l1                                           , l2 == nil
+    3. l(1) + f(f(l1.next, l2.next),l(1))           , (l1.val + l2.val) > 9
+    4. l(l1.val + l2.val) + f(l1.next, l2.next)     , else
+ }
+ 
+ Demo:
+ ```
+ class AddTwoNumbers {
+ func addTwoNumbers(l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+ guard let l1 = l1 else {return l2}
+ guard let l2 = l2 else {return l1}
+ 
+ let outputNode = ListNode((l1.val + l2.val)%10)
+ if l1.val + l2.val > 9 {
+ outputNode.next = addTwoNumbers(addTwoNumbers(l1.next, l2.next),
+ ListNode(1))
+ } else {
+ outputNode.next = addTwoNumbers(l1.next, l2.next)
+ }
+ 
+ return outputNode
+ }
+ }
+ ```
+ */
+
+
 /*
  example:
  
