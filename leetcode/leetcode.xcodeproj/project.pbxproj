@@ -18,6 +18,7 @@
 		89BC280222DECBA2003E0675 /* LongestValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC280122DECBA2003E0675 /* LongestValidParentheses.swift */; };
 		89BC280522DF19B3003E0675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC280422DF19B3003E0675 /* ViewController.swift */; };
 		89BC280722DF19CE003E0675 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC280622DF19CE003E0675 /* ReverseInteger.swift */; };
+		89BC280922E011E2003E0675 /* Atoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC280822E011E2003E0675 /* Atoi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		89BC280122DECBA2003E0675 /* LongestValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParentheses.swift; sourceTree = "<group>"; };
 		89BC280422DF19B3003E0675 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89BC280622DF19CE003E0675 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		89BC280822E011E2003E0675 /* Atoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atoi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				89BC27FD22DD6F9A003E0675 /* ReverseWordsInAString3.swift */,
 				89BC280122DECBA2003E0675 /* LongestValidParentheses.swift */,
 				89BC280622DF19CE003E0675 /* ReverseInteger.swift */,
+				89BC280822E011E2003E0675 /* Atoi.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				89BC280522DF19B3003E0675 /* ViewController.swift in Sources */,
 				89BC280222DECBA2003E0675 /* LongestValidParentheses.swift in Sources */,
 				89BC27FE22DD6F9A003E0675 /* ReverseWordsInAString3.swift in Sources */,
+				89BC280922E011E2003E0675 /* Atoi.swift in Sources */,
 				89BC280022DD7810003E0675 /* AddTwoNumbers.swift in Sources */,
 				89BC27C522DD6C26003E0675 /* AppDelegate.swift in Sources */,
 				89BC280722DF19CE003E0675 /* ReverseInteger.swift in Sources */,
