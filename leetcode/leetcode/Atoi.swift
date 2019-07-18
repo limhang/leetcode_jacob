@@ -22,6 +22,8 @@ import UIKit
 
 class Atoi: NSObject {
     func myAtoi(_ str: String) -> Int {
+        let int_max = 2147483647
+        let int_min = -2147483648
         // 正负号
         var flag: Int  = 1
         // 最终返回的结果（result）
@@ -48,12 +50,20 @@ class Atoi: NSObject {
         }
         
         // 3.将字符串数组转为整型
-        while _isDigtal(content[index]) {
+        while index < content.count {
+            guard (_isDigtal(content[index])) else {
+                break
+            }
+            
+            // 超过范围直接返回最大值，最小值
+            if (res >= int_max && flag == 1) {
+                return int_max
+            } else if (res >= int_max && flag == -1) {
+                return int_min
+            }
+
             res = res * 10 + Int(String(content[index]))!
             index += 1
-            if (res > Int32.max) {
-                return 0
-            }
         }
         res = res * flag
         return res
