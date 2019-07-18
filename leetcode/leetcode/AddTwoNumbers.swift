@@ -21,12 +21,12 @@ import UIKit
  example:
  
  let nodeList = AddTwoNumbers()
- let l1 = NodeList(1)
- l1.next = NodeList(2)
- l1.next!.next = NodeList(3)
- let l2 = NodeList(5)
- l2.next = NodeList(6)
- l2.next!.next = NodeList(7)
+ let l1 = ListNode(1)
+ l1.next = ListNode(2)
+ l1.next!.next = ListNode(3)
+ let l2 = ListNode(5)
+ l2.next = ListNode(6)
+ l2.next!.next = ListNode(7)
  nodeList.logNode(nodeList.add(l1,l2))
  
  output:
@@ -34,9 +34,9 @@ import UIKit
  
  */
 
-public class NodeList {
+public class ListNode {
     var val: Int
-    var next: NodeList?
+    var next: ListNode?
     init(_ val: Int) {
         self.val = val
         self.next = nil
@@ -44,11 +44,11 @@ public class NodeList {
 }
 
 class AddTwoNumbers: NSObject {
-    func add(_ l1: NodeList?, _ l2: NodeList?) -> NodeList? {
+    func add(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         var node1 = l1
         var node2 = l2
-        var headNode: NodeList?
-        var nextNode: NodeList?
+        var headNode: ListNode?
+        var nextNode: ListNode?
         var carry: Int = 0
         while node1 != nil || node2 != nil {
             let node1val = node1?.val ?? 0
@@ -59,22 +59,22 @@ class AddTwoNumbers: NSObject {
             carry = sum < 10 ? 0 : 1
             sum = sum % 10
             if nextNode == nil {
-                nextNode = NodeList.init(sum)
+                nextNode = ListNode.init(sum)
                 headNode = nextNode
             } else {
-                nextNode?.next = NodeList.init(sum)
+                nextNode?.next = ListNode.init(sum)
                 nextNode = nextNode?.next
             }
         }
         if carry != 0 {
-            nextNode?.next = NodeList.init(carry)
+            nextNode?.next = ListNode.init(carry)
         }
         return headNode
     }
 }
 
 extension AddTwoNumbers {
-    func logNode(_ list:NodeList?) {
+    func logNode(_ list:ListNode?) {
         var list = list
         var text = "["
         while (list != nil) {
