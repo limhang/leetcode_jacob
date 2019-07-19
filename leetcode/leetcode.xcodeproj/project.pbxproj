@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E924EC622E202D800107104 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E924EC522E202D800107104 /* ReverseLinkedList.swift */; };
 		89BC27C522DD6C26003E0675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27C422DD6C26003E0675 /* AppDelegate.swift */; };
 		89BC27DA22DD6C27003E0675 /* leetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27D922DD6C27003E0675 /* leetcodeTests.swift */; };
 		89BC27E522DD6C27003E0675 /* leetcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27E422DD6C27003E0675 /* leetcodeUITests.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E924EC522E202D800107104 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		89BC27C122DD6C26003E0675 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BC27C422DD6C26003E0675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89BC27D522DD6C27003E0675 /* leetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				89BC280122DECBA2003E0675 /* LongestValidParentheses.swift */,
 				89BC280622DF19CE003E0675 /* ReverseInteger.swift */,
 				89BC280822E011E2003E0675 /* Atoi.swift */,
+				1E924EC522E202D800107104 /* ReverseLinkedList.swift */,
 				89BC280A22E045C1003E0675 /* MergeTwoSortedLists.swift */,
 				89BC280C22E05B25003E0675 /* ThreeSum.swift */,
 			);
@@ -298,6 +301,7 @@
 				89BC27FE22DD6F9A003E0675 /* ReverseWordsInAString3.swift in Sources */,
 				89BC280922E011E2003E0675 /* Atoi.swift in Sources */,
 				89BC280D22E05B25003E0675 /* ThreeSum.swift in Sources */,
+				1E924EC622E202D800107104 /* ReverseLinkedList.swift in Sources */,
 				89BC280022DD7810003E0675 /* AddTwoNumbers.swift in Sources */,
 				89BC27C522DD6C26003E0675 /* AppDelegate.swift in Sources */,
 				89BC280B22E045C1003E0675 /* MergeTwoSortedLists.swift in Sources */,
