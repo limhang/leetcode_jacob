@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E732FC522E4602900E46515 /* CommonStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E732FC422E4602900E46515 /* CommonStructure.swift */; };
+		1E732FC722E4621600E46515 /* ValidSearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E732FC622E4621600E46515 /* ValidSearchTree.swift */; };
 		1E924EC622E202D800107104 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E924EC522E202D800107104 /* ReverseLinkedList.swift */; };
 		1E924EC822E35C2E00107104 /* ReverseKNodesInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E924EC722E35C2E00107104 /* ReverseKNodesInList.swift */; };
 		89BC27C522DD6C26003E0675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC27C422DD6C26003E0675 /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E732FC422E4602900E46515 /* CommonStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStructure.swift; sourceTree = "<group>"; };
+		1E732FC622E4621600E46515 /* ValidSearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSearchTree.swift; sourceTree = "<group>"; };
 		1E924EC522E202D800107104 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		1E924EC722E35C2E00107104 /* ReverseKNodesInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseKNodesInList.swift; sourceTree = "<group>"; };
 		89BC27C122DD6C26003E0675 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,7 @@
 				89BC280A22E045C1003E0675 /* MergeTwoSortedLists.swift */,
 				89BC280C22E05B25003E0675 /* ThreeSum.swift */,
 				1E924EC722E35C2E00107104 /* ReverseKNodesInList.swift */,
+				1E732FC622E4621600E46515 /* ValidSearchTree.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				89BC280422DF19B3003E0675 /* ViewController.swift */,
+				1E732FC422E4602900E46515 /* CommonStructure.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -301,10 +307,12 @@
 			files = (
 				89BC280522DF19B3003E0675 /* ViewController.swift in Sources */,
 				89BC280222DECBA2003E0675 /* LongestValidParentheses.swift in Sources */,
+				1E732FC722E4621600E46515 /* ValidSearchTree.swift in Sources */,
 				89BC27FE22DD6F9A003E0675 /* ReverseWordsInAString3.swift in Sources */,
 				89BC280922E011E2003E0675 /* Atoi.swift in Sources */,
 				89BC280D22E05B25003E0675 /* ThreeSum.swift in Sources */,
 				1E924EC622E202D800107104 /* ReverseLinkedList.swift in Sources */,
+				1E732FC522E4602900E46515 /* CommonStructure.swift in Sources */,
 				89BC280022DD7810003E0675 /* AddTwoNumbers.swift in Sources */,
 				89BC27C522DD6C26003E0675 /* AppDelegate.swift in Sources */,
 				89BC280B22E045C1003E0675 /* MergeTwoSortedLists.swift in Sources */,

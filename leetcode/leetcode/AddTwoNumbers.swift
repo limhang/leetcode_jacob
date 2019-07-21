@@ -66,15 +66,6 @@ import UIKit
  
  */
 
-public class ListNode {
-    var val: Int
-    var next: ListNode?
-    init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
 class AddTwoNumbers: NSObject {
     func add(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         var node1 = l1
